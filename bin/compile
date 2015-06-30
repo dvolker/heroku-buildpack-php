@@ -45,7 +45,6 @@ BP_DIR=$(cd $(dirname $0); cd ..; pwd)
 source $BP_DIR/bin/util/common.sh
 
 
-apt-get update && apt-get install -qy libtidy vim
 
 # for extensions that need special treatment
 source $BP_DIR/bin/util/newrelic.sh
